@@ -1,0 +1,138 @@
+{
+  "furnished": [
+    {
+      "id": "furnished-1",
+      "file": "حمّام عصري بإضاءة دافئة (1).png"
+    },
+    {
+      "id": "furnished-2",
+      "file": "حمّام عصري بإضاءة دافئة.png"
+    },
+    {
+      "id": "furnished-3",
+      "file": "زاوية تسريحة عصرية بإضاءة دافئة.png"
+    },
+    {
+      "id": "furnished-4",
+      "file": "شارع حضري أمام مبنى عصري أنيق.png"
+    },
+    {
+      "id": "furnished-5",
+      "file": "صالة عصرية بإطلالة على غرفتين.png"
+    },
+    {
+      "id": "furnished-6",
+      "file": "صوره غرفة مفردة الصفا.png"
+    },
+    {
+      "id": "furnished-7",
+      "file": "غرفة فندقية دافئة بأسرتين twin.png"
+    },
+    {
+      "id": "furnished-8",
+      "file": "غرفة معيشة عصرية بإضاءة دافئة.png"
+    },
+    {
+      "id": "furnished-9",
+      "file": "غرفة معيشة عصرية دافئة وأنيقة.png"
+    },
+    {
+      "id": "furnished-10",
+      "file": "غرفة نوم عصرية بإضاءة دافئة.png"
+    },
+    {
+      "id": "furnished-11",
+      "file": "غرفة نوم فندقية عصرية بإضاءة دافئة.png"
+    },
+    {
+      "id": "furnished-12",
+      "file": "غرفة نوم فندقية عصرية بسريرين.png"
+    },
+    {
+      "id": "furnished-13",
+      "file": "كولاج ثلاثي لاستوديو عصري دافئ.png"
+    },
+    {
+      "id": "furnished-14",
+      "file": "كولاج غرفة معيشة عصرية دافئة.png"
+    },
+    {
+      "id": "furnished-15",
+      "file": "كولاج غرفة نوم فندقية عصرية دافئة (1).png"
+    },
+    {
+      "id": "furnished-16",
+      "file": "كولاج غرفة نوم فندقية عصرية دافئة.png"
+    },
+    {
+      "id": "furnished-17",
+      "file": "كولاج غرفة نوم فندقية عصرية.png"
+    },
+    {
+      "id": "furnished-18",
+      "file": "مطبخ صغير عصري بإضاءة دافئة.png"
+    },
+    {
+      "id": "furnished-19",
+      "file": "مطبخ صغير عصري بثلاث زوايا.png"
+    }
+  ],
+  "unfurnished": [
+    {
+      "id": "unfurnished-1",
+      "file": "1.png"
+    },
+    {
+      "id": "unfurnished-2",
+      "file": "2.png"
+    },
+    {
+      "id": "unfurnished-3",
+      "file": "شقة عصرية فارغة بإضاءة القمرية.png"
+    },
+    {
+      "id": "unfurnished-4",
+      "file": "غرفة عصرية بإضاءة حلقية وأرضية رخامية.png"
+    },
+    {
+      "id": "unfurnished-5",
+      "file": "غرفة عصرية بحمام مضاء datingside.png"
+    },
+    {
+      "id": "unfurnished-6",
+      "file": "غرفة عصرية فارغة بإضاءة دافئة.png"
+    },
+    {
+      "id": "unfurnished-7",
+      "file": "مبنى سكني كلاسيكي عند الغسق.png"
+    },
+    {
+      "id": "unfurnished-8",
+      "file": "مبنى سكني مضاء عند الغسق.png"
+    },
+    {
+      "id": "unfurnished-9",
+      "file": "مدخل عصري بكسوة خشبية وزجاج داكن.png"
+    },
+    {
+      "id": "unfurnished-10",
+      "file": "مدخل موقف عصري بسيارة لكزس سوداء.png"
+    },
+    {
+      "id": "unfurnished-11",
+      "file": "ممر فاخر بإضاءة دافئة ودرج رخامي.png"
+    },
+    {
+      "id": "unfurnished-12",
+      "file": "ممر منزلي عصري بإضاءة خفية.png"
+    },
+    {
+      "id": "unfurnished-13",
+      "file": "واجهة مبنى حديثة وقت الغروب.png"
+    },
+    {
+      "id": "unfurnished-14",
+      "file": "واجهة مبنى عصري بسماء زرقاء.png"
+    }
+  ]
+}

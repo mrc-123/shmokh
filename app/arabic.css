@@ -1,0 +1,81 @@
+@font-face{font-family:YEMMMar;src:url('/fonts/mar.ttf') format('truetype');font-weight:400;font-style:normal;font-display:swap}
+.language-switch{position:absolute;top:calc(100% + 22px);right:0;font-size:11px;letter-spacing:1px;border-bottom:1px solid #b7dfd280;padding:0 0 5px;z-index:6}
+.language-switch[lang=ar]{font-family:YEMMMar,Arial,sans-serif;letter-spacing:0;font-size:16px}
+html[lang=ar] body{font-family:YEMMMar,Arial,sans-serif;line-height:1.8}
+html[lang=ar] h2,html[lang=ar] h3,html[lang=ar] strong{font-weight:400;letter-spacing:0;line-height:1.55}
+html[lang=ar] .eyebrow,html[lang=ar] .button,html[lang=ar] .nav>a,html[lang=ar] .tagline,html[lang=ar] .hero-description,html[lang=ar] .visit-label,html[lang=ar] .closing-tagline{letter-spacing:0}
+html[lang=ar] .eyebrow{font-size:14px}
+html[lang=ar] .nav>a{font-size:17px}
+html[lang=ar] .language-switch{right:auto;left:0;font-family:Manrope,Arial,sans-serif}
+html[lang=ar] .nav .nav-cta{margin-left:0;margin-right:2.4vw}
+html[lang=ar] .hero-content{left:auto;right:7.35%;top:30%}
+html[lang=ar] .hero h1 img{width:100%;max-height:180px;object-fit:contain}
+html[lang=ar] .tagline{font-size:clamp(22px,2vw,34px);margin-top:1.2vw}
+html[lang=ar] .hero-description{font-size:clamp(19px,1.5vw,26px);line-height:1.9}
+html[lang=ar] .hero .small-rule{margin:1.8vw 0 1.3vw}
+html[lang=ar] .geometry{left:auto;right:38.6%;transform:translate3d(var(--drift-x,0px),var(--drift-y,0px),0) scaleX(-1)}
+html[lang=ar] .slide-controls{left:auto;right:7.6%;direction:ltr}
+html[lang=ar] .button{font-size:17px;line-height:1.4}
+html[lang=ar] .button .arrow,html[lang=ar] .text-link .arrow,html[lang=ar] .service-content>a .arrow{transform:scaleX(-1)}
+html[lang=ar] a:hover .arrow{transform:scaleX(-1) translateX(4px)}
+html[lang=ar] .section-heading>p,html[lang=ar] .about-copy>p:not(.eyebrow),html[lang=ar] .service-content p,html[lang=ar] .principle-grid p,html[lang=ar] .study-copy>p:not(.eyebrow){font-size:18px;line-height:1.95}
+html[lang=ar] .service-summary{margin-right:0;margin-left:35px;font-size:16px}
+html[lang=ar] .service-content{margin-left:0;margin-right:70px}
+html[lang=ar] .tags span{font-size:14px;line-height:1.4}
+html[lang=ar] .service-content a,html[lang=ar] .text-link{font-size:17px}
+html[lang=ar] .section-note{font-size:14px}
+html[lang=ar] .contact-mark{text-align:right}
+html[lang=ar] .art-caption{left:auto;right:26px;letter-spacing:0;font-size:15px}
+html[lang=ar] .art-coordinate{left:auto;right:25px;letter-spacing:0;font-size:11px}
+html[lang=ar] .project{text-align:right}
+html[lang=ar] .project-caption p,html[lang=ar] .process-grid p{font-size:16px}
+html[lang=ar] .process-grid h3{font-size:28px}
+html[lang=ar] .project-caption .diagonal{transform:rotate(-140deg)}
+html[lang=ar] .preview-label{letter-spacing:0;font-size:11px;left:auto;right:18px}
+html[lang=ar] .mini-interface>span{font-size:10px;letter-spacing:0}
+html[lang=ar] .mini-interface strong{font-size:22px;line-height:1.5}
+html[lang=ar] .mini-bars{right:auto;left:16px}
+html[lang=ar] .mini-interface .mini-action{left:auto;right:16px;font-size:11px}
+html[lang=ar] .brand-poster small,html[lang=ar] .identity-art>span{letter-spacing:0;font-size:12px}
+html[lang=ar] .stage-label{letter-spacing:0;font-size:13px}
+html[lang=ar] .brand-poster>span{letter-spacing:0;font-size:11px}
+html[lang=ar] .browser-menu{right:auto;left:30px;letter-spacing:0;font-size:10px}
+html[lang=ar] .browser-content p{font-size:clamp(25px,3vw,45px);line-height:1.6;letter-spacing:0;margin-top:30px}
+html[lang=ar] .browser-pill{font-size:9px;letter-spacing:0}
+html[lang=ar] .browser-sculpture{right:auto;left:-10px;transform:scaleX(-1)}
+html[lang=ar] .stage-caption,html[lang=ar] .stage-swatches span{letter-spacing:0;font-size:11px}
+html[lang=ar] .study-tabs button{text-align:right;font-size:19px}
+html[lang=ar] .study-indicator{margin-left:0;margin-right:auto}
+html[lang=ar] .study-copy>span{font-size:13px}
+html[lang=ar] .lab-status{font-size:13px}
+html[lang=ar] .lab-canvas-top,html[lang=ar] .lab-canvas-bottom{letter-spacing:0;font-size:11px}
+html[lang=ar] .lab-art>span{letter-spacing:0;font-size:15px}
+html[lang=ar] .lab-art{direction:ltr}
+html[lang=ar] .lab-mode button{font-size:17px}
+html[lang=ar] .range-label{font-size:16px}
+html[lang=ar] .range-label output{float:left;direction:ltr}
+html[lang=ar] .range-label input{direction:ltr}
+html[lang=ar] .palette-controls legend{font-size:16px}
+html[lang=ar] .palette-name{font-size:13px;margin-left:0;margin-right:7px}
+html[lang=ar] .lab-reset{font-size:16px}
+html[lang=ar] .lab-note{font-size:14px}
+html[lang=ar] label{font-size:16px}
+html[lang=ar] input,html[lang=ar] textarea,html[lang=ar] select{font-size:17px}
+html[lang=ar] .contact p{font-size:17px}
+html[lang=ar] .contact .form-note{font-size:14px}
+html[lang=ar] .contact .form-status{font-size:14px!important}
+html[lang=ar] .closing-statement h2{letter-spacing:0}
+html[lang=ar] .closing-tagline{font-size:14px}
+html[lang=ar] footer>span{font-size:12px;letter-spacing:0}
+html[lang=ar] footer p{margin-left:0;margin-right:auto;font-size:13px}
+html[lang=ar] footer>a:last-child{font-size:14px}
+html[lang=ar] .visit-copy{border-left:0;border-right:1px solid #b3dccc40;padding-left:0;padding-right:13px}
+html[lang=ar] .visit-label{font-size:10px;line-height:1.4}
+html[lang=ar] .visit-time{font-family:Manrope,Arial,sans-serif;text-align:right}
+html[lang=ar] .visit-detail{margin-left:0;margin-right:3px}
+html[lang=ar] .modal-close{right:auto;left:20px;font-size:17px}
+html[lang=ar] .modal>p:not(.eyebrow){font-size:18px}
+@media(max-width:1100px){html[lang=ar] .nav>a{font-size:15px}html[lang=ar] .nav .nav-cta{margin-right:0}html[lang=ar] .hero .small-rule{margin:22px 0 18px}}
+@media(max-width:800px){.language-switch{top:calc(100% + 18px)}html[lang=ar] .hero-content{right:7%;top:22%}html[lang=ar] .geometry{right:25%;top:44%}html[lang=ar] .tagline{font-size:26px;margin-top:15px}html[lang=ar] .hero-description{font-size:22px}html[lang=ar] .section-note{text-align:left}html[lang=ar] .hero .primary{font-size:17px}html[lang=ar] .slide-controls{right:7%}html[lang=ar] .browser-content p{font-size:25px}html[lang=ar] footer p{margin:0}}
+@media(max-width:480px){html[lang=ar] .hero-content{top:24%}html[lang=ar] .hero h1 img{max-height:125px}html[lang=ar] .tagline{font-size:25px}html[lang=ar] .hero-description{font-size:22px}html[lang=ar] .geometry{right:0;top:54%}html[lang=ar] .service-content{margin-right:35px}html[lang=ar] .section-note{font-size:11px}html[lang=ar] .stage-label{font-size:9px}html[lang=ar] .brand-poster small{font-size:8px}html[lang=ar] .brand-poster>span{font-size:9px}html[lang=ar] .browser-content p{font-size:20px;margin:14px 0 10px}html[lang=ar] .browser-pill{font-size:6px}html[lang=ar] .stage-caption,html[lang=ar] .stage-swatches span{font-size:8px}html[lang=ar] .lab-canvas-top,html[lang=ar] .lab-canvas-bottom{font-size:9px}html[lang=ar] .visit-copy{padding-right:10px}html[lang=ar] .visit-label{font-size:9px}html[lang=ar] .visit-time{font-size:14px}html[lang=ar] .closing-tagline{font-size:12px}}
+@media(prefers-reduced-motion:reduce){html[lang=ar] .geometry{transform:scaleX(-1)}}

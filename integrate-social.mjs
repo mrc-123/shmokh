@@ -1,0 +1,2 @@
+import fs from 'node:fs';
+for(const [file,locale] of [['app/home.js','en'],['app/home-ar.js','ar']]){let s=fs.readFileSync(file,'utf8');s=s.replace("import Rentals from './rentals';","import Rentals from './rentals';\nimport SocialChannels, { SocialLinks } from './social-channels';");s=s.replace('<section className="contact section"',`<SocialChannels locale="${locale}" /><section className="contact section"`);s=s.replace('</footer>',`<SocialLinks locale="${locale}" /></footer>`);fs.writeFileSync(file,s);}
