@@ -4,7 +4,8 @@
   "description": "YEMM — Technology by Heritage",
   "scripts": {
     "dev": "next dev --hostname 0.0.0.0 --port 3001",
-    "build": "next build"
+    "build": "next build",
+    "test": "node --test scripts/logo-engine.test.mjs scripts/seo.test.mjs"
   },
   "keywords": [],
   "author": "",

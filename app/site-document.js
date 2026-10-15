@@ -1,8 +1,16 @@
 import './globals.css';
+import { SITE_URL, PAGE_URLS, LANGUAGE_URLS, pageSeo, structuredData } from './seo.js';
 export function siteMetadata(locale = 'en') {
- const ar = locale === 'ar';
- const title = ar ? 'شموخ الرفاهية | التسويق والوساطة العقارية' : 'Shumokh Al Rafahiyah | Real Estate Marketing & Brokerage';
- const description = ar ? 'شموخ الرفاهية للتسويق العقاري، شركة مرخصة من الهيئة العامة للعقار وتحمل رخصة فال. تسويق ووساطة عقارية، وشقق مساكن الرفاهية المفروشة شهريًا وغير المفروشة سنويًا في جدة.' : 'FAL-licensed real estate marketing and brokerage, authorised by the Real Estate General Authority. Property marketing and brokerage by Shumokh, plus Masaken furnished monthly and unfurnished annual apartments in Jeddah.';
- return {title,description,openGraph:{title,description,locale:ar?'ar_SA':'en_SA',type:'website'}};
+ const { title, description } = pageSeo(locale);
+ const image = { url: `${SITE_URL}/brand/residence.png`, width: 1448, height: 1086, alt: 'مبنى سكني من الصور التعريفية لشموخ الرفاهية في جدة' };
+ return {
+ metadataBase: new URL(SITE_URL), title, description,
+ alternates: { canonical: PAGE_URLS[locale], languages: LANGUAGE_URLS },
+ robots: { index: true, follow: true, googleBot: { index: true, follow: true, 'max-image-preview': 'large', 'max-snippet': -1, 'max-video-preview': -1 } },
+ openGraph: { title, description, url: PAGE_URLS[locale], siteName: 'شموخ الرفاهية', locale: locale === 'ar' ? 'ar_SA' : 'en_US', alternateLocale: locale === 'ar' ? ['en_US'] : ['ar_SA'], type: 'website', images: [image] },
+ twitter: { card: 'summary_large_image', title, description, images: [{ url: image.url, alt: image.alt }] },
+ };
 }
-export default function SiteDocument({children,locale='en'}) {return <html lang={locale} dir={locale==='ar'?'rtl':'ltr'}><body>{children}</body></html>;}
+export default function SiteDocument({ children, locale = 'en' }) {
+ return <html lang={locale} dir={locale === 'ar' ? 'rtl' : 'ltr'}><body>{children}<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData(locale)).replace(/</g, '\\u003c') }} /></body></html>;
+}
